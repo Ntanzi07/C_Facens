@@ -13,7 +13,6 @@ void Diconomia(int K, float *ptrA, float *ptrB);
 int grau;
 float multi[7]; //Indice 0 a 6
 
-
 main()
 {
     int i, op;
@@ -70,7 +69,6 @@ main()
         //Exibindo o cabecalho
         ImprimirCabecalhoTabela();
 
-
         //Implementacao da DICOTOMIA
         Diconomia(K, ptrA, ptrB);
         printf("\n");
@@ -78,7 +76,6 @@ main()
         scanf("%i", &op);
     }while(op != 1);
 }
-
 
 //Realiza o calculo do K (numero de passo)
 float CalculaValorK(float a, float b, float erro)
@@ -143,8 +140,6 @@ void Diconomia(int K, float *ptrA, float *ptrB)
         else
             *ptrB = media;
 
-
         i++;
     }while(i <= K);
-
 }

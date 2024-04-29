@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <math.h>
 
-
 main()
 {
     int pontos, n, grau, cont, i, j;
@@ -17,7 +16,7 @@ main()
     scanf("%i", &grau);
     fflush(stdin);
 
-	//Obtendo o número de pontos a partir do grau indicado
+    //Obtendo o número de pontos a partir do grau indicado
     pontos = grau + 1;
 
     //Alocação do tamanho solicitado
